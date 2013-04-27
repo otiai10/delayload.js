@@ -16,3 +16,5 @@
 <img class="delayload" src="" data="http://your.domain/YOUR/IMAGE/PATH">
 <img class="delayload" src="" data="http://your.domain/YOUR/IMAGE/PATH">
 ```
+
+Very Thanks To : http://jsdo.it/itahana/eA4V
