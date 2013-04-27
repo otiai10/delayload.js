@@ -16,13 +16,14 @@ http://jsdo.it/itahana/eA4V
     });
   </script>
 </head>
-</head>
-<img class="delayload" src="" data="http://your.domain/YOUR/IMAGE/PATH">
-<img class="delayload" src="" data="http://your.domain/YOUR/IMAGE/PATH">
-<img class="delayload" src="" data="http://your.domain/YOUR/IMAGE/PATH">
-<img class="delayload" src="" data="http://your.domain/YOUR/IMAGE/PATH">
-<img class="delayload" src="" data="http://your.domain/YOUR/IMAGE/PATH">
-<img class="delayload" src="" data="http://your.domain/YOUR/IMAGE/PATH">
+<body>
+  <img class="delayload" src="" data="http://your.domain/YOUR/IMAGE/PATH">
+  <img class="delayload" src="" data="http://your.domain/YOUR/IMAGE/PATH">
+  <img class="delayload" src="" data="http://your.domain/YOUR/IMAGE/PATH">
+  <img class="delayload" src="" data="http://your.domain/YOUR/IMAGE/PATH">
+  <img class="delayload" src="" data="http://your.domain/YOUR/IMAGE/PATH">
+  <img class="delayload" src="" data="http://your.domain/YOUR/IMAGE/PATH">
+</body>
 ```
 # Option
 
