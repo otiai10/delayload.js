@@ -1,0 +1,4 @@
+$(function(){
+  //enableDelayLoad();
+  enableDelayLoad();
+});
