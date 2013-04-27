@@ -6,7 +6,8 @@ function enableDelayLoad(opt){
   var DELAYLOAD_FADEIN_DURATION =          800,
       BASE_FRAME_DOM_ELEMENT    =       window,
       TARGET_SELECTOR           = '.delayload',
-      DO_FADEIN_EFFECT          =         true;
+      DO_FADEIN_EFFECT          =         true,
+      IMMEDIATELY               =        false;
   if(opt != void 0){
     if(opt.duration != void 0 && typeof(opt.duration) == 'number'){
       DELAYLOAD_FADEIN_DURATION = opt.duration;
@@ -20,13 +21,16 @@ function enableDelayLoad(opt){
     if(opt.doFade   != void 0 && typeof(opt.doFade)   == 'boolean'){
       DO_FADEIN_EFFECT          = opt.doFade;
     }
+    if(opt.immediately != void 0 && typeof(opt.immediately) == 'boolean'){
+      IMMEDIATELY               = opt.immediately;
+    }
   }
  
   var imgs = $('img' + TARGET_SELECTOR);
   var pos  = 0;
   $(BASE_FRAME_DOM_ELEMENT).load(delayLoad);
   $(BASE_FRAME_DOM_ELEMENT).scroll(delayLoad);
-  if(opt.immediately){
+  if(IMMEDIATELY){
       delayLoad();
   }
   function delayLoad(){
