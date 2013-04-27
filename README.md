@@ -35,6 +35,7 @@ http://jsdo.it/itahana/eA4V
 | doFade      | boolean                | fadeIn or simple show()           | true       |
 | immediately | boolean                | fixing bug :sweat_smile:          | false      |
 
+# Sample
 ```javascript
 var option = {
   duration    : 1000,
